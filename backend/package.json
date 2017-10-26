@@ -1,7 +1,6 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
   "main": "src/loader.js",
   "scripts": {
     "dev": "nodemon",
@@ -17,5 +16,14 @@
     "node-restful": "^0.2.5",
     "nodemon": "^1.11.0",
     "pm2": "^2.1.5"
-  }
+  },
+  "dependencies": {
+    "check-node-version": "^2.1.0",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.0",
+    "node-restful": "^0.2.5",
+    "nodemon": "^1.11.0",
+    "pm2": "^2.1.5"
+  },
+  "description": ""
 }
